@@ -2,10 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 body{
-  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@ body{
 }
 
 .menu-bar{
-  background-color: #6209DA ;
+  background-color: #E40606;
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 .active, .menu-bar ul li:hover{
-  background-color: #1D057A ;
+  background-color: #9D0303 ;
   border-radius: 3px;
 
 }
@@ -51,7 +51,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1{
   display: block;
   position: absolute;
-  background: #6209DA;
+  background: #9D0303;
   margin-top: 15px;
   margin-left: -15px;
 }
@@ -75,7 +75,7 @@ body{
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-  color: #b2ff00;
+  color: #9D0303;
 }
 
 .fa-angle-right{
@@ -91,22 +91,16 @@ body{
   display: block;
   margin-top: -40px;
   margin-left: 140px;
-  background: #1D057A;
+  background: #9D0303;
 }
 
-/*footer {
-  text-align: center;
-  padding: 30px;
-  background-color: #3F18D0  ;
-  color: white;
-}*/
 
 
 
 
 @import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 body {
-  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #f2efd9 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #FA0707 0%, #f2efd9 100%);
 }
 
 @-webkit-keyframes rotate-right {
